@@ -12,13 +12,14 @@ function Index ({breads})  {
                     breads.map((bread,index) => {
                         return (
                         <li key={index}>
-                            <a href={`/breads/${index}`}>
+                            <a href={`/breads/${bread.id}`}>
                                 {bread.name}
                             </a>
                         </li>)
                     })
                 }
             </ul>
+            <a href={`/breads/new`}><button>ADD A NEW BREAD</button></a>
         </Default>
     )
 }
