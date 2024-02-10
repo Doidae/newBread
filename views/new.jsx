@@ -36,3 +36,8 @@ function New () {
 }
 
 module.exports = New
+
+
+
+//TODO: Research how to add functionality to the form that checks whether the field is :
+//Blank, starts with http, starts with https
