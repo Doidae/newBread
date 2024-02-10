@@ -29,3 +29,4 @@ function Show ({bread, index}) {
 
 module.exports = Show
 //TODO: Add favicon
+//make an array of ingredients for each bread etc
